@@ -11,7 +11,7 @@ const main = () => {
 
   client.on('ready', () => {
     console.log('✔ 準備完了')
-    client.user.setActivity(`v${pkg.version}`, { type: 'PLAYING' })
+    client.user.setActivity(`Koze v${pkg.version}`, { type: 'PLAYING' })
   })
 
   client.on('message', msg => {
